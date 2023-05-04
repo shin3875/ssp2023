@@ -70,7 +70,7 @@ def vad(sound, sampling, silent_interval=0.2):
     return split_signal, split_list, noise_signal
 
 
-# Revision of winner filter code
+# Revision of wiener filter code
 # Original code : https://github.com/raphaelvdumas/noise-reduction
 #
 class Wiener:
